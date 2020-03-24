@@ -1,0 +1,1 @@
+cd frontend && yarn start & cd backend && yarn start
