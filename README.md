@@ -18,6 +18,6 @@ A Full-Stack Web Application Starter Kit for Developers
 3. MongoDB
 
 # Continuous Integration / Continuous Deployment 
-1. Travis
-2. Netlify
-3. Heroku 
+1. Travis (Unit Testing/ Deployment)
+2. Netlify (Frontend Deployment)
+3. Heroku (Backend Deployment)
