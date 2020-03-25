@@ -22,6 +22,9 @@ A Full-Stack Web Application Starter Kit for Developers
 2. Netlify (Frontend Deployment)
 3. Heroku (Backend Deployment)
 
+# Code Formatter
+1. ESLint
+2. Prettier
 
 ## Install
 
