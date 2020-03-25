@@ -1,11 +1,11 @@
 # Full-Stack-Starter-Kit
-A Full-Stack Web Application Starter Kit for Developers
+A Full-Stack Web Application Starter Kit for Developers, sample website [here](https://full-stack-starter-kit.netlify.com/)
 
 <p align="center">
   <img src="assets/architecture.png?raw=true" width="500" title="Arch">
 </p>
 
-# Frontend (https://full-stack-starter-kit.netlify.com/)
+# Frontend
 1. Gatsby
 2. React
 3. GraphQL
