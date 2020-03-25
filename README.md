@@ -1,5 +1,7 @@
 # Full-Stack-Starter-Kit
-A Full-Stack Web Application Starter Kit for Developers, sample website [here](https://full-stack-starter-kit.netlify.com/)
+A Full-Stack Web Application Starter Kit for Developers. The purpose of this project is to speed up development by setting up all the common dependencies, continous integrations/deployment, coding practices that are usually used developers.
+
+Please view the sample website [here](https://full-stack-starter-kit.netlify.com/)
 
 <p align="center">
   <img src="assets/architecture.png?raw=true" width="500" title="Arch">
