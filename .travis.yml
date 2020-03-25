@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '10'
+cache: yarn
+script: bash scripts/build.sh
+branches:
+  only:
+    - master
+before_script:
+  - npm install -g gatsby-cli
+before_install:
+- echo $before install
