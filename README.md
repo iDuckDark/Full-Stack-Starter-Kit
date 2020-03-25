@@ -20,7 +20,7 @@ A Full-Stack Web Application Starter Kit for Developers
 # Continuous Integration / Continuous Deployment 
 1. Travis (Unit Testing/ Deployment)
 2. Netlify (Frontend Deployment)
-3. Heroku (Backend Deployment)
+3. Heroku (Backend Deployment) [steps](https://stackoverflow.com/questions/39197334/automated-heroku-deploy-from-subfolder)
 
 # Code Formatter
 1. ESLint
