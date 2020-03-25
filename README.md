@@ -1,5 +1,5 @@
 # Full-Stack-Starter-Kit
-A Full-Stack Web Application Starter Kit for Developers. The purpose of this project is to speed up development by setting up all the common dependencies, continuous integrations/deployment, coding practices that are usually used by developers.
+A Full-Stack Web Application Starter Kit is a reusable framework for Developers. The purpose of this project is to speed up development by setting up all the common dependencies, continuous integrations/deployment, coding practices that are usually utilized by developers.
 
 Please view the sample website [here](https://full-stack-starter-kit.netlify.com/)
 
