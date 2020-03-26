@@ -28,29 +28,34 @@ Please view the sample website [here](https://full-stack-starter-kit.netlify.com
 1. ESLint
 2. Prettier
 
-## Install
+## Setup Instructions
 
-1. Make sure that you have the Gatsby CLI program installed:
+1. Git clone the repository
+```sh
+git clone https://github.com/iDuckDark/Full-Stack-Starter-Kit.git
+```
+
+2. Make sure that you have the Gatsby CLI program installed:
 ```sh
 npm install --global gatsby-cli
 ```
 
-2. Run frontend (Gatsby.js) by running these commands:
+3. Run frontend (Gatsby.js) by running these commands:
 ```sh
 cd frontend && yarn install && yarn start
 ```
 
-3. Run backend (Express.js) by running these commands:
+4. Run backend (Express.js) by running these commands:
 ```sh
 cd backend && yarn install && yarn start
 ```
 
-4. Alternatively:
+5. Alternatively:
 ```sh
 (cd frontend && yarn install && yarn start) & (cd backend && yarn install && yarn start)
 ```
 
-5. OR
+6. OR
 ```sh
 sh run.sh
 ```
