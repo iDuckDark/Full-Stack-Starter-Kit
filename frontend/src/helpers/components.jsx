@@ -19,7 +19,7 @@ import {
     LeadPencilIcon,
     LightBulbIcon,
     MenuIcon,
-} from "../components/Icons/Icons";
+} from "../components/Icons/icons";
 
 export {
     ChevronDownIcon,
