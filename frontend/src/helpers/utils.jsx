@@ -1,4 +1,18 @@
+/* eslint-disable no-console */
 export const isServerSideRendering = () => typeof window === "undefined";
+
+const { warn } = console;
+export function logWarning(...warnings) {
+    let showWarning = true;
+    warnings.forEach(warning => {
+        if (warning.includes("UNSAFE_")) showWarning = false;
+        else if (warning.includes("SourceMap")) showWarning = false;
+        else if (warning.includes("DevTools")) showWarning = false;
+    });
+    if (showWarning) warn(...warnings);
+}
+
+console.warn = logWarning;
 
 export const detectMob = () => {
     const toMatch = [

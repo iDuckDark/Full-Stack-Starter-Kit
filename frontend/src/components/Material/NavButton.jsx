@@ -1,28 +1,31 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Button } from "@material-ui/core";
 import Link from "../Routers/Link";
 
 const NavButton = props => {
-    const { link, title, loadable, ...other } = props;
+    const { link, title, component: NavComponent, loadable, ...other } = props;
     const linker = link || `/${title.toLowerCase().replace(/ /g, "-")}`;
     return (
-        <Button color='inherit' component={Link} to={linker} {...other}>
-            {title}
-        </Button>
+        <NavComponent color='inherit' to={linker} {...other}>
+            <Link to={linker} style={{ color: "#000000" }}>
+                {title}
+            </Link>
+        </NavComponent>
     );
 };
 
 NavButton.defaultProps = {
+    component: null,
     loadable: null,
     link: null,
     title: null,
 };
 
 NavButton.propTypes = {
+    component: PropTypes.any,
     loadable: PropTypes.any,
-    link: PropTypes.string,
-    title: PropTypes.string,
+    link: PropTypes.any,
+    title: PropTypes.any,
 };
 
 export default NavButton;

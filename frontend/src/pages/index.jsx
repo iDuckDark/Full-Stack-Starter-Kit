@@ -1,11 +1,9 @@
 import React from "react";
 import { Provider } from "react-redux";
-import Layout from "../components/layout";
-import SEO from "../components/SEO/SEO";
-import Home from "./Home/Home";
-import Sample from "./Sample/Sample";
-import "./index.scss";
+import { SEO, Layout } from "../helpers/components";
+import { Home, Sample } from "../helpers/pages";
 import store from "../redux/store";
+import "./index.scss";
 
 const IndexPage = () => (
     <Layout>

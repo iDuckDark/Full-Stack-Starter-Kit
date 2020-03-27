@@ -1,8 +1,6 @@
 import React from "react";
-import SEO from "../../components/SEO/SEO";
-import Header2 from "../../components/Header/header2";
-import Title from "../../components/Titles/Title";
-import arc from "../../assets/architecture/SystemArch.png";
+import { SEO, Header2, Title } from "../../helpers/components";
+import arc from "../../../assets/images/architecture/SystemArch.png";
 
 const Home = () => {
     return (

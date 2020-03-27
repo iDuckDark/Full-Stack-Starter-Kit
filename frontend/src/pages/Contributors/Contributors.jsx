@@ -1,11 +1,11 @@
 import React from "react";
 import { Typography, Card, CardContent, CardMedia } from "@material-ui/core";
 import SEO from "../../components/SEO/SEO";
-import Layout from "../../components/layout";
+import Layout from "../../components/Layout/Layout";
 import Title from "../../components/Titles/Title";
 
 import "./contributors.scss";
-import logo from "../../assets/contributors/contributor.jpg";
+import logo from "../../../assets/images/contributors/contributor.jpg";
 
 const imageStyle = {
     margin: "16px auto 0",

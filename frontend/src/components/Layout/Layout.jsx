@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import "./layout.css";
-import Header from "./Header/Header";
-import Footer from "./Footer/Footer";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 
 class Layout extends Component {
     constructor(props) {

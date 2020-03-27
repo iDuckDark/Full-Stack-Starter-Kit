@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { ChevronDownIcon, ChevronUpIcon } from "../Icons/icons";
+import { ChevronDownIcon, ChevronUpIcon } from "../Icons/Icons";
 import MaterialMenu from "./MaterialMenu";
 
 class NavDropDown extends Component {
@@ -75,7 +75,7 @@ NavDropDown.defaultProps = {
 NavDropDown.propTypes = {
     children: PropTypes.any,
     clickbubbledown: PropTypes.any,
-    component: PropTypes.func,
+    component: PropTypes.any,
     items: PropTypes.any,
     onClick: PropTypes.func,
 };

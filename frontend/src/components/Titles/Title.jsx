@@ -15,7 +15,7 @@ const Title = ({ children, classes, style }) => (
     </Typography>
 );
 
-const styles = theme => ({
+const styles = () => ({
     root: {
         "&:after": {
             // borderBottom: `2px solid ${theme.palette.text.primary}`,

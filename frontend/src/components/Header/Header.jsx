@@ -8,8 +8,8 @@ import {
     NavButton,
     NavDropDown,
 } from "../../helpers/components";
-import logo from "../../images/favicon.png";
-import { routes } from "../../routes";
+import logo from "../../../assets/images/favicon.png";
+import { routes } from "../../helpers/routes";
 
 class Header extends Component {
     constructor(props) {
@@ -59,7 +59,12 @@ class Header extends Component {
             <div>
                 {routes.map(({ title, path: link, items }) =>
                     !items ? (
-                        <NavButton key={title} link={link} title={title} />
+                        <NavButton
+                            key={title}
+                            link={link}
+                            title={title}
+                            component={Button}
+                        />
                     ) : (
                         <NavDropDown
                             key={title}
