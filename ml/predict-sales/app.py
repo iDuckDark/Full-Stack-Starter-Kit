@@ -10,7 +10,7 @@ model = pickle.load(open('model.pkl', 'rb'))
 
 @app.route('/')
 def home():
-    return "Hello World"
+    return "Hello World!"
 
 
 @app.route('/results', methods=['POST'])
