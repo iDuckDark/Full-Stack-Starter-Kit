@@ -20,7 +20,7 @@ Please view the sample website [here](https://full-stack-starter-kit.netlify.com
 3. MongoDB
 
 # Machine Learning (Heroku)
-1. Flask/
+1. Flask
 2. Pickle
 3. Pandas
 4. Numpy
