@@ -16,10 +16,25 @@ class Sample extends Component {
 
     getArrayfromKey(array, key) {
         const result = [];
-        for (const item of array) {
-            result.push(item[key]);
-        }
+        for (const item of array) result.push(item[key]);
         return result;
+    }
+
+    getSalesPrediction() {
+        const rate = 5;
+        const sales_in_first_month = 200;
+        const sales_in_second_month = 400;
+        const { actions } = this.props;
+        actions
+            .getSalesPrediction(
+                rate,
+                sales_in_first_month,
+                sales_in_second_month
+            )
+            .then(() => {
+                const { predictionSales } = this.props;
+                console.log("Sales Prediction: ", predictionSales);
+            });
     }
 
     setAPIs() {
@@ -28,6 +43,7 @@ class Sample extends Component {
             const { users } = this.props;
             this.setState({ response: `API is working: ${users}` });
         });
+        this.getSalesPrediction();
     }
 
     render() {
@@ -41,17 +57,20 @@ class Sample extends Component {
 const mapStateToProps = ({ actionReducer }) => {
     return {
         users: actionReducer.users,
+        predictionSales: actionReducer.predictionSales,
     };
 };
 
 Sample.defaultProps = {
     actions: null,
     users: null,
+    predictionSales: null,
 };
 
 Sample.propTypes = {
     actions: PropTypes.any,
     users: PropTypes.any,
+    predictionSales: PropTypes.any,
 };
 
 export default isServerSideRendering()
