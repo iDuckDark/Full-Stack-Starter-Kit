@@ -21,9 +21,10 @@ Please view the sample website [here](https://full-stack-starter-kit.netlify.com
 
 # Machine Learning (Heroku)
 1. Flask
-2. Pickle
-3. Pandas
-4. Numpy
+2. Docker
+3. Pickle
+4. Pandas
+5. Numpy
 
 # Continuous Integration / Continuous Deployment 
 1. Travis (Unit Testing/ Deployment)
