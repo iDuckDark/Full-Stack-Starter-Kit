@@ -33,6 +33,7 @@ class Sample extends Component {
             )
             .then(() => {
                 const { predictionSales } = this.props;
+                // eslint-disable-next-line no-console
                 console.log("Sales Prediction: ", predictionSales);
             });
     }
