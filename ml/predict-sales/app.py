@@ -22,4 +22,6 @@ def results():
 
 
 if __name__ == "__main__":
-    app.run(host='localhost', debug=True)
+    # app.run(host='localhost', debug=True)
+    print("Running Flask App")
+    app.run(debug=True)
