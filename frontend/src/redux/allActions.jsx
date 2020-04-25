@@ -3,8 +3,10 @@ import axios from "axios";
 const httpClient = axios.create();
 httpClient.defaults.timeout = 600000;
 
-const BACKEND_URL = process.env.GATSBY_BACKEND_URL;
-const FLASK_BACKEND_URL = process.env.GATSBY_FLASK_BACKEND_URL;
+const {
+    GATSBY_BACKEND_URL: BACKEND_URL,
+    GATSBY_FLASK_BACKEND_URL: FLASK_BACKEND_URL,
+} = process.env;
 
 export const getUsers = () => {
     return async dispatch => {
