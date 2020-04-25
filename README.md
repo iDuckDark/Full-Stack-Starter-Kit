@@ -7,17 +7,23 @@ Please view the sample website [here](https://full-stack-starter-kit.netlify.com
   <img src="assets/architecture.png?raw=true" width="500" title="Arch">
 </p>
 
-# Frontend
+# Frontend (Netlify)
 1. Gatsby
 2. React
 3. GraphQL
 4. Redux
 5. Material-UI (Theme and Components)
 
-# Backend
+# Backend (Heroku)
 1. Node.js
 2. Express.js
 3. MongoDB
+
+# Machine Learning (Heroku)
+1. Flask/
+2. Pickle
+3. Pandas
+4. Numpy
 
 # Continuous Integration / Continuous Deployment 
 1. Travis (Unit Testing/ Deployment)
