@@ -10,7 +10,7 @@ model = pickle.load(open('model.pkl', 'rb'))
 
 @app.route('/')
 def home():
-    return "Hello World!"
+    return "<h1>Welcome to flask server !</h1>"
 
 
 @app.route('/results', methods=['POST'])
