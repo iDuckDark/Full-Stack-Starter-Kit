@@ -38,12 +38,16 @@ class Sample extends Component {
             });
     }
 
-    setAPIs() {
+    getUsers() {
         const { actions } = this.props;
         actions.getUsers().then(() => {
             const { users } = this.props;
             this.setState({ response: `API is working: ${users}` });
         });
+    }
+
+    setAPIs() {
+        this.getUsers();
         this.getSalesPrediction();
     }
 
