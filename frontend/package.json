@@ -27,7 +27,7 @@
     "gatsby-transformer-json": "^2.3.1",
     "gatsby-transformer-sharp": "^2.3.7",
     "google-map-react": "^1.1.6",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "nuka-carousel": "^4.6.3",
     "path": "^0.12.7",
     "prop-types": "^15.7.2",
